@@ -1,0 +1,32 @@
+
+// 5 Couleurs 
+$color-1: rgb(253, 245, 245);
+$color-4: #090908;
+$color-3: rgba(163, 159, 159, 0.452);
+$color-2: rgb(30, 166, 239);
+$color-5: rgb(13, 103, 151);
+$color_white: $color-1;
+// couleurs ddes borders
+$color_border: $color_white;
+$transparent: 0.651;
+// Radius
+$radius: 15px; 
+
+//decoration border
+.border_deco{ 
+    border: 2px solid $color-1;
+    padding: 15px 15px 15px 15px;
+}
+.text-deco{
+    text-decoration: underline $color-2;
+    text-align: center;
+}
+.textdeco{
+    text-decoration: underline $color-1 !important;
+    // color: $color-1 !important;
+  }
+body {
+    background-color: $color-3 !important;
+  }
+
+
