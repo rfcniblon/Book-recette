@@ -1,0 +1,24 @@
+@import "variable.scss";
+
+.header {
+  position: fixed;
+  margin-top: -33px;
+  width: 100%;
+  z-index: 110;
+}
+
+.progress-container {
+  background-color: transparent;
+  height: 4px;
+  width: 100%;
+}
+
+.progress-bar {
+  background-color:$color-1;
+  height: 4px;
+  width: 0%;
+}
+
+.content {
+  padding: 2em;
+}
